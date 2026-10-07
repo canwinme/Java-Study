@@ -1,0 +1,18 @@
+package unit7;
+
+public class SuperAirplane extends Airplane {
+	public static final int NORMAL = 1;
+	public static final int SUPERSONIC = 2;
+	
+	public int flymode = NORMAL;
+	
+	public void fly() {
+		if(flymode == SUPERSONIC) {
+			System.out.println("초음속 비행");
+		}
+		else {
+			super.fly();
+		}
+	}
+
+}
