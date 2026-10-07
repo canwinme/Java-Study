@@ -1,0 +1,16 @@
+# Eclipse / IDE
+.metadata/
+.settings/
+.classpath
+.project
+
+# Build output
+bin/
+target/
+out/
+*.class
+
+# Local libraries / OS
+lib/*.jar
+.DS_Store
+Thumbs.db
